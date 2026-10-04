@@ -1,0 +1,12 @@
+:root { --paper:#f4f0e8; --ink:#22282e; --soft:#5d666e; --accent:#2f5d62; --card:#fffdf8; --line:#e4ddd0; }
+@media (prefers-color-scheme: dark) { :root { --paper:#14181d; --ink:#ece7de; --soft:#a8a196; --accent:#9cc6c2; --card:#1c2228; --line:#2c333a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+h1, h2 { font-family: "New York", Georgia, serif; font-weight: 500; line-height: 1.2; }
+h1 { font-size: 40px; margin: 8px 0 12px; } h2 { font-size: 24px; margin-top: 40px; }
+p.lead { font-size: 20px; color: var(--soft); }
+a { color: var(--accent); }
+nav { display:flex; gap:18px; font-size:15px; margin-bottom: 28px; }
+footer { color: var(--soft); font-size: 14px; margin-top: 56px; }
+ul { padding-left: 20px; }
